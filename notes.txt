@@ -1,0 +1,8 @@
+git init:初始化目录,使git检测目录下内容的变化
+git add:将工作区文件提交到缓存区(stage index),将文件数据写到git的对象库中
+git restored:将缓存区文件写回工作区
+git commit:更新工作树,生成历史文件
+git reset --soft:将指定历史文件写回缓存区,并更新指针指向
+git reset --hard:将指定历史文件写回工作区,并更新指针
+git branch:生成一个分支
+git checkout:切换分支
